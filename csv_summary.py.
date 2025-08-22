@@ -1,0 +1,12 @@
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+print("Sample Data:")
+print(df.head())
+
+print("\nSummary Statistics:")
+print(df.describe())
+
+print("\nColumns in dataset:")
+print(df.columns.tolist())
